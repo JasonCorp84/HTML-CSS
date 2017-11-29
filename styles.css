@@ -1,0 +1,12 @@
+@import './components/menu.css';
+@import './components/Home.css';
+@import './components/Contact.css';
+@import './components/Projects.css';
+@import './components/About.css';
+
+body {
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+
+}

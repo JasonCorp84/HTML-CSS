@@ -1,0 +1,10 @@
+.Home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  height: 960px;
+  border-bottom: solid 1px;
+  border-color: gray;
+}
