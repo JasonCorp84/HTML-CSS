@@ -8,7 +8,7 @@
   <div class='menu'>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li class="home"><a href="#home">Home</a></li>
         <li><a href="#about">About me</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -16,10 +16,12 @@
     </nav>
   </div>
   <div class='Home' id='home'>
+    <div class ="Home__monitor">
     <h1>Welcome to my portfolio page</h1>
+    </div>
   </div>
   <div class="About" id='about'>
-    <div class="About About__items"><img src="./pictures/Profile.png" alt="Webmasters profile picture"></div>
+    <div class="About About__items"><img src="./pictures/Profile.png" alt="Webmasters profile picture" class="Home--Profile"></div>
     <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking 
       at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as 
       opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages
@@ -33,6 +35,11 @@
       Projects
   </div>
   <div class="Contact" id='contact'>
-      Contact
+    <div class="Contact Contact__wrapper">
+      <input type="text" name='' id='' placeholder="Full Name">
+      <input type="text" name='' id='' placeholder="Email example@mail.com">
+      <input type="text" name='' id='' placeholder="Phone Number">
+      <textarea name"" id="" col="30" rows="10" placeholder="your message goes here"></textarea>
+    </div>    
   </div>
 </body>

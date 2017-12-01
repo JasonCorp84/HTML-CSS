@@ -3,8 +3,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: skyblue;
   height: 960px;
   border-bottom: solid 1px;
   border-color: gray;
+  background: url(pictures/mainBackGround.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Home__monitor {
+  -webkit-box-sizing: cover;
+  box-sizing: cover;
+  -moz-size: cover;
+  size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-self: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10%;
+  padding-top: 5%;
+  height: 40%;
+  width: 40%;
+  
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.Home h1{
+  position: absolute;
+  font-size: 2vw;
+  align-self: justify;
+  z-index: -1;
 }

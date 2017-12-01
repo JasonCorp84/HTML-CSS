@@ -5,8 +5,13 @@
 @import './components/About.css';
 
 body {
-  background-color: skyblue;
   margin: 0;
   padding: 0;
-
+}
+html { 
+  background: url(pictures/mainBackGround.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
