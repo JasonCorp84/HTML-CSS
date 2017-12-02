@@ -1,6 +1,8 @@
 .menu {
   width: 100%;
   margin: 0 auto;
+  position: fixed;
+  z-index: 1;
 }
 
 nav ul {

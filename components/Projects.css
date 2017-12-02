@@ -1,6 +1,17 @@
 .Projects {
+  padding: 20px;
   display: flex;
-  background-color: rebeccapurple;
   width: 100%;
-  height: 900px;
+  height: 1024px;
+}
+
+.Project__item {
+  width: 25%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  background-color: gray;
+  border:solid;
+  white-space: 10px;
 }
